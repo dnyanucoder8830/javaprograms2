@@ -36,6 +36,7 @@ class produsor extends Thread{
     @Override
     public void run() {
         b.produce(10);
+
         }
     }
 
